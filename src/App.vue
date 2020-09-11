@@ -2,18 +2,21 @@
   <div id="app">
     <HelloWorld msg="notes of jira frontend" />
     <NotesList />
+    <createNote />
   </div>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
 import NotesList from "./components/NotesList.vue";
+import CreateNote from "./components/CreateNote.vue";
 
 export default {
   name: "App",
   components: {
     HelloWorld,
     NotesList,
+    CreateNote,
   },
 };
 </script>
