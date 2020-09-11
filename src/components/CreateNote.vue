@@ -1,12 +1,15 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h1>Create note form</h1>
+    <form>
+      
+    </form>
   </div>
 </template>
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "CreateNote",
   props: {
     msg: String,
   },
